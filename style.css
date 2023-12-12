@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title {
+    color: #222;
+    font-size: 28px;
+    line-height: 36x;
+    font-weight: bold;
+}
+
+.paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.image {
+    border-radius: 50px;
+}
+
+.input_class {
+    width: 240px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: sans-serif;
+   
+}
+
+.button_class {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+
+}
