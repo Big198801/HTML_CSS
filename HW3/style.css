@@ -1,0 +1,32 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ordinary {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.top{
+    margin-bottom: 96px;
+}
+
+.header{
+    margin-top: 51px;
+    margin-bottom: 94,71px;
+}
+.top_content{
+    margin-top: 164px;
+    margin-bottom: 162px;
+}
+.top_info{
+margin-bottom: 37px;
+}
+.top_buttons{
+    margin-top: 17px;
+    margin-bottom: 37px;
+}
