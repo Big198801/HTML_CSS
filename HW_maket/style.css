@@ -20,14 +20,15 @@ a {
     margin-top: 160px;
     margin-bottom: 197px;
 }
-
 .subtitle{
     margin-bottom: 10px;
 }
 .title{
     margin-bottom: 40px;
 }
-
+.text{
+    margin-bottom: 50px;
+}
 .top_buttons{
-    margin-top: 5opx;
+    margin-top: 50px;
 }
