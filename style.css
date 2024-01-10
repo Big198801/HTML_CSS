@@ -1,61 +1,64 @@
-body {
-    font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.nav_link {
-    color: cornflowerblue;
-    font-size: 16px;
-    line-height: 20px;
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #2f2e41;
+}
+
+.header__link {
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.top{
+    padding-top: 84px;
+    padding-bottom: 84px;
 }
 
 .title {
-    color: #222;
-    font-size: 28px;
-    line-height: 36x;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-style: 96px;
+    line-height: 113px;
+    color: #6c63ff;
+    mix-blend-mode: normal;
 }
 
-.paragraf {
+.about {
+    background: rgba(242, 242, 242, 0.34);
+    padding-top: 64px;
+    padding-bottom: 194px;
+
+}
+
+
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #6c63ff;
+    mix-blend-mode: normal;
+}
+
+.about__content {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    color: #7D7987;
-}
-
-.subtitle {
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
-}
-
-.image {
-    border-radius: 50px;
-}
-
-.input_class {
-    width: 240px;
-    height: 30px;
-    outline: none;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    font-size: 14px;
-    line-height: 30px;
-    font-family: sans-serif;
-   
-}
-
-.button_class {
-    width: 120px;
-    height: 30px;
-    font-size: 14px;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-
+    color: #7d7987;
+    mix-blend-mode: normal;
+    margin-top: 50px;
 }
