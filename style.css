@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+
 a {
     text-decoration: none;
 }
@@ -16,12 +26,13 @@ a {
 .header__link {
     font-style: normal;
     font-weight: 400;
-    font-weight: 20px;
+    font-size: 20px;
     line-height: 23px;
     color: #ffffff;
     text-decoration: none;
 }
-.top{
+
+.top {
     padding-top: 84px;
     padding-bottom: 84px;
 }
@@ -29,7 +40,7 @@ a {
 .title {
     font-style: normal;
     font-weight: 700;
-    font-style: 96px;
+    font-size: 96px;
     line-height: 113px;
     color: #6c63ff;
     mix-blend-mode: normal;
