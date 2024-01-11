@@ -18,6 +18,8 @@ a {
 }
 
 .header {
+    display: flex;
+    gap: 32px;
     padding-top: 30px;
     padding-bottom: 30px;
     background: #2f2e41;
@@ -35,9 +37,16 @@ a {
 .top {
     padding-top: 84px;
     padding-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .title {
+    width: 578px;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
@@ -65,11 +74,20 @@ a {
 }
 
 .about__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about__text {
+    width: 462px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     color: #7d7987;
     mix-blend-mode: normal;
-    margin-top: 50px;
 }
