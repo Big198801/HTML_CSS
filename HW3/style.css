@@ -39,7 +39,7 @@ body {
     line-height: normal;
     justify-content: center;
     gap: 40px;
-    
+
 }
 
 .top_content {
@@ -119,4 +119,47 @@ body {
     display: flex;
     gap: 48px;
     justify-content: center;
+}
+
+.read_more {
+    display: grid;
+    gap: 90px;
+    grid-template-columns: repeat(3, 310px);
+    padding-bottom: 125px;
+    justify-content: center;
+}
+
+.get_profit {}
+
+.logo_profit {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    padding-bottom: 25px;
+
+}
+
+.profit_title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profit_paragrapf {
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 25px;
+}
+
+.add_read {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
