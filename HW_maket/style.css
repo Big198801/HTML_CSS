@@ -12,7 +12,6 @@ body {
 }
 
 .top {
-
     background-color: #020A18;
     padding-bottom: 99px;
 }
@@ -44,8 +43,6 @@ body {
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-
-
 }
 
 .subtitle {
