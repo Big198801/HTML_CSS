@@ -8,10 +8,7 @@ body {
     font-family: Open Sans;
 }
 
-.logo_link {
-    display: flex;
-    gap: 14px;
-}
+
 
 .top {
     margin-bottom: 96px;
@@ -21,7 +18,6 @@ body {
     margin-top: 51px;
     margin-bottom: 96px;
     display: flex;
-    justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
@@ -29,6 +25,10 @@ body {
 
 }
 
+.logo_link1 {
+    padding-left: 14px;
+    padding-right: 500px;
+}
 
 
 .header_menu {
@@ -38,8 +38,7 @@ body {
     font-weight: 400;
     line-height: normal;
     justify-content: center;
-    gap: 40px;
-
+    gap: 30px;
 }
 
 .top_content {
@@ -126,6 +125,7 @@ body {
     gap: 90px;
     grid-template-columns: repeat(3, 310px);
     padding-bottom: 125px;
+    padding-top: 100px;
     justify-content: center;
 }
 
@@ -162,4 +162,96 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+.center {
+    padding-left: calc(50% - 555px);
+    padding-right: calc(50% - 555px);
+}
+
+.bonus__title {
+    grid-template-columns: repeat(3, 370px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 54px;
+    padding-bottom: 100px;
+
+}
+
+.bonus_block {
+    display: grid;
+    justify-items: center;
+    gap: 19px;
+
+}
+
+.bonus_info {
+    padding-top: 92px;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 579px;
+
+
+}
+
+.bonus_p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    height: 48px;
+    width: 682px;
+
+}
+
+.options {
+    display: grid;
+    justify-items: center;
+
+    height: 549px;
+    background: #FFF;
+
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+
+}
+
+.option_title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 22px;
+}
+
+.option_text {
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 39px;
+}
+
+.option_button {
+    color: #fff;
+    background-color: #F25822;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border-color: #F25822;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
 }
