@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 231px;
+    padding-right: 240px;
+    align-items: center;
+    height: 75px;
+
+}
+
+.top-logos__left {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.top-logos__right {
+    display: flex;
+    gap: 33px;
+}
+
+.title {
+    display: flex;
+    background-color: #F1E4E6;
+}
+
+.title-brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 405px;
+
+    padding-left: 63px;
+}
+
+.title__text {
+    font-size: 32px;
+    max-width: 377px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+
+}
