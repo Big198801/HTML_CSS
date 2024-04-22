@@ -129,9 +129,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: center; */
     gap: 30px;
     align-items: center;
+   
 }
 
 .item_big {

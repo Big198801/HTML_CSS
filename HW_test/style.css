@@ -1,0 +1,7 @@
+.logo:hover path {
+    fill: red;
+}
+
+.logo:active path {
+    fill: yellow;
+}
