@@ -47,16 +47,31 @@ a {
     align-items: center;
     gap: 16px;
     max-width: 405px;
-    padding-left: 63px;
+    margin-left: 63.42px;
+}
+
+.title-brand-rectangle{
+    width: 12px;
+    height: 92px;
 }
 
 .title__text {
-    font-size: 32px;
     max-width: 377px;
     text-align: left;
     font-family: "Lato", sans-serif;
-    font-weight: 700;
+    
 
+}
+.title__text_h{
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title__text_p{
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .menu {
@@ -330,3 +345,10 @@ line-height: 167%;
     gap: 7.3px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .title-photo{
+        height: 368px;
+        width: 368px;
+    }
+
+}
