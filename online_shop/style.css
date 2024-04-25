@@ -277,12 +277,12 @@ a {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 448px;
     background-image: url(../online_shop/img/photo_subscribe.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 
 
 }
@@ -352,14 +352,14 @@ a {
     display: flex;
     height: 79px;
     align-items: center;
-    justify-content: space-between;
-    position: relative;
+    justify-content: space-around;
+    /* position: relative; */
     background-color: #222224;
 }
 
 .certificate {
-    position: absolute;
-    left: 230px;
+    /* position: absolute; */
+    /* left: 230px; */
 }
 
 .cert__paragr {
@@ -372,8 +372,8 @@ a {
 
 
 .social__icons {
-    position: absolute;
-    right: 230px;
+    /* position: absolute; */
+    /* right: 230px; */
     display: grid;
     grid-template-columns: repeat(4, 32px);
     gap: 7.3px;
@@ -520,14 +520,22 @@ a {
     }
 
     .foot_rew{
-        padding-top: 64px;
-        height: 99px;
+        /* padding-top: 64px; */
+        /* height: 99px; */
     }
 
     .rew__text{
         font-family: 'Lato';
         font-weight: 400;
         font-size: 20px;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 48px;
+        padding-bottom: 140px;
+        padding-top: 64px;
+
     }
 
 
